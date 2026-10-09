@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "PhytoGuide",
+    "tagline": "Fiches techniques agricoles - RDC"
+  },
+  "nav": {
+    "home": "Accueil",
+    "catalog": "Catalogue",
+    "downloads": "Mes fiches",
+    "admin": "Administration"
+  },
+  "home": {
+    "welcome": "Bienvenue",
+    "subtitle": "Trouvez des fiches techniques agricoles pour ameliorer vos cultures",
+    "searchPlaceholder": "Rechercher une fiche...",
+    "recentDocuments": "Documents recents",
+    "allCrops": "Toutes les cultures",
+    "allCategories": "Toutes les categories",
+    "viewAll": "Voir tout"
+  },
+  "catalog": {
+    "title": "Catalogue",
+    "filters": "Filtres",
+    "filterByCrop": "Par culture",
+    "filterByCategory": "Par categorie",
+    "filterByLanguage": "Par langue",
+    "noResults": "Aucun document trouve",
+    "noResultsHint": "Essayez de modifier vos filtres ou votre recherche",
+    "pages": "pages",
+    "allCrops": "Toutes les cultures",
+    "allCategories": "Toutes les categories",
+    "allLanguages": "Toutes les langues"
+  },
+  "document": {
+    "download": "Telecharger le PDF",
+    "saveOffline": "Enregistrer hors ligne",
+    "savedOffline": "Enregistre hors ligne",
+    "removeOffline": "Supprimer du hors ligne",
+    "pages": "pages",
+    "source": "Source",
+    "published": "Publie le",
+    "language": "Langue",
+    "otherLanguages": "Disponible en d autres langues",
+    "chemicalWarning": "Avertissement produits chimiques",
+    "chemicalWarningDefault": "Respectez toujours les instructions sur l etiquette. Portez des equipements de protection. Consultez un agent agricole local.",
+    "notFoundInLanguage": "Ce document n est pas disponible dans votre langue. Version affichee :",
+    "views": "vues",
+    "downloads": "telechargements"
+  },
+  "offline": {
+    "title": "Mes telechargements",
+    "subtitle": "Documents disponibles sans connexion internet",
+    "empty": "Aucun document enregistre hors ligne",
+    "emptyHint": "Ouvrez une fiche et cliquez sur Enregistrer hors ligne",
+    "remove": "Supprimer",
+    "savedOn": "Enregistre le",
+    "offlineReady": "Disponible hors ligne"
+  },
+  "admin": {
+    "login": "Connexion administrateur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "loginButton": "Se connecter",
+    "logout": "Se deconnecter",
+    "dashboard": "Tableau de bord",
+    "totalDocuments": "Total documents",
+    "totalViews": "Total vues",
+    "totalDownloads": "Total telechargements",
+    "mostViewed": "Plus consultes",
+    "addDocument": "Ajouter un PDF",
+    "manageDocuments": "Gerer les documents",
+    "manageCrops": "Gerer les cultures",
+    "manageCategories": "Gerer les categories",
+    "manageLanguages": "Gerer les langues",
+    "upload": {
+      "title": "Ajouter une fiche technique",
+      "dragDrop": "Glisser-deposer un PDF ici",
+      "or": "ou",
+      "browse": "Parcourir",
+      "pdfOnly": "Fichiers PDF uniquement (max 20 Mo)",
+      "documentTitle": "Titre du document",
+      "description": "Description",
+      "crop": "Culture",
+      "category": "Categorie",
+      "language": "Langue",
+      "source": "Source",
+      "publicationDate": "Date de publication",
+      "chemicalWarning": "Avertissement produits chimiques (optionnel)",
+      "chemicalWarningHint": "Laissez vide pour utiliser le message par defaut",
+      "publishNow": "Publier maintenant",
+      "saveDraft": "Enregistrer en brouillon",
+      "uploading": "Envoi en cours...",
+      "success": "Document ajoute avec succes !",
+      "error": "Erreur lors de l ajout"
+    },
+    "errors": {
+      "invalidCredentials": "Email ou mot de passe incorrect",
+      "loginError": "Erreur de connexion. Reessayez."
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Reessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "publish": "Publier",
+    "unpublish": "Depublier",
+    "draft": "Brouillon",
+    "published": "Publie",
+    "search": "Rechercher",
+    "back": "Retour",
+    "yes": "Oui",
+    "no": "Non",
+    "confirmDelete": "Etes-vous sur de vouloir supprimer ?",
+    "noData": "Aucune donnee disponible",
+    "exportCSV": "Exporter CSV"
+  },
+  "language": {
+    "select": "Choisir la langue",
+    "fr": "Francais",
+    "en": "English",
+    "ln": "Lingala",
+    "sw": "Kiswahili",
+    "lua": "Tshiluba"
+  }
+}

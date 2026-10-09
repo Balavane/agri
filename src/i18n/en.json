@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "PhytoGuide",
+    "tagline": "Agricultural technical sheets - DRC"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "downloads": "My downloads",
+    "admin": "Administration"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "subtitle": "Find agricultural technical sheets to improve your crops",
+    "searchPlaceholder": "Search a document...",
+    "recentDocuments": "Recent documents",
+    "allCrops": "All crops",
+    "allCategories": "All categories",
+    "viewAll": "View all"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "filters": "Filters",
+    "filterByCrop": "By crop",
+    "filterByCategory": "By category",
+    "filterByLanguage": "By language",
+    "noResults": "No document found",
+    "noResultsHint": "Try adjusting your filters or search terms",
+    "pages": "pages",
+    "allCrops": "All crops",
+    "allCategories": "All categories",
+    "allLanguages": "All languages"
+  },
+  "document": {
+    "download": "Download PDF",
+    "saveOffline": "Save for offline",
+    "savedOffline": "Saved offline",
+    "removeOffline": "Remove from offline",
+    "pages": "pages",
+    "source": "Source",
+    "published": "Published on",
+    "language": "Language",
+    "otherLanguages": "Available in other languages",
+    "chemicalWarning": "Chemical products warning",
+    "chemicalWarningDefault": "Always follow label instructions. Wear protective equipment. Consult a local agricultural agent.",
+    "notFoundInLanguage": "This document is not available in your language. Showing version:",
+    "views": "views",
+    "downloads": "downloads"
+  },
+  "offline": {
+    "title": "My downloads",
+    "subtitle": "Documents available without internet connection",
+    "empty": "No document saved offline",
+    "emptyHint": "Open a document and click Save for offline",
+    "remove": "Remove",
+    "savedOn": "Saved on",
+    "offlineReady": "Available offline"
+  },
+  "admin": {
+    "login": "Administrator login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign in",
+    "logout": "Sign out",
+    "dashboard": "Dashboard",
+    "totalDocuments": "Total documents",
+    "totalViews": "Total views",
+    "totalDownloads": "Total downloads",
+    "mostViewed": "Most viewed",
+    "addDocument": "Add a PDF",
+    "manageDocuments": "Manage documents",
+    "manageCrops": "Manage crops",
+    "manageCategories": "Manage categories",
+    "manageLanguages": "Manage languages",
+    "upload": {
+      "title": "Add a technical sheet",
+      "dragDrop": "Drag and drop a PDF here",
+      "or": "or",
+      "browse": "Browse",
+      "pdfOnly": "PDF files only (max 20 MB)",
+      "documentTitle": "Document title",
+      "description": "Description",
+      "crop": "Crop",
+      "category": "Category",
+      "language": "Language",
+      "source": "Source",
+      "publicationDate": "Publication date",
+      "chemicalWarning": "Chemical products warning (optional)",
+      "chemicalWarningHint": "Leave empty to use the default message",
+      "publishNow": "Publish now",
+      "saveDraft": "Save as draft",
+      "uploading": "Uploading...",
+      "success": "Document added successfully!",
+      "error": "Error while adding document"
+    },
+    "errors": {
+      "invalidCredentials": "Incorrect email or password",
+      "loginError": "Login error. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "draft": "Draft",
+    "published": "Published",
+    "search": "Search",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "confirmDelete": "Are you sure you want to delete?",
+    "noData": "No data available",
+    "exportCSV": "Export CSV"
+  },
+  "language": {
+    "select": "Select language",
+    "fr": "Francais",
+    "en": "English",
+    "ln": "Lingala",
+    "sw": "Kiswahili",
+    "lua": "Tshiluba"
+  }
+}
