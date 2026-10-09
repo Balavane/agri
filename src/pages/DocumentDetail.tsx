@@ -46,7 +46,7 @@ export default function DocumentDetail() {
 
   // Incrementer les vues une seule fois
   useEffect(() => {
-    if (doc) incrementView(doc.id, doc.language_code || undefined);
+    if (doc) incrementView(doc.id);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [doc?.id]);
 
@@ -55,7 +55,7 @@ export default function DocumentDetail() {
   const handleDownload = async () => {
     if (!doc) return;
     window.open(doc.fichier_url, "_blank");
-    incrementDownload(doc.id, doc.language_code || undefined);
+    incrementDownload(doc.id);
   };
 
   const handleOfflineToggle = async () => {

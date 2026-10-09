@@ -23,7 +23,7 @@ export async function generatePdfThumbnail(file: File): Promise<string | null> {
     canvas.height = viewport.height;
     const ctx = canvas.getContext('2d')!;
 
-    await page.render({ canvasContext: ctx, viewport, canvas }).promise;
+    await page.render({ canvasContext: ctx, viewport }).promise;
     return canvas.toDataURL('image/png');
   } catch (err) {
     console.error('Erreur generation miniature PDF:', err);
